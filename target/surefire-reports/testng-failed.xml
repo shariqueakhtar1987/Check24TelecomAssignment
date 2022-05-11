@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Check24Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Check24Test(failed)" verbose="0">
+    <classes>
+      <class name="com.check24.selenium.tests.Check24_TestsSuites">
+        <methods>
+          <include name="AfterSuite"/>
+          <include name="BeforeSuite"/>
+          <include name="Check24_TestCases_10"/>
+          <include name="beforeTestMethod"/>
+          <include name="Check24_TestCases_9"/>
+        </methods>
+      </class> <!-- com.check24.selenium.tests.Check24_TestsSuites -->
+    </classes>
+  </test> <!-- Check24Test(failed) -->
+</suite> <!-- Failed suite [Check24Suite] -->

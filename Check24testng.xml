@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Check24Suite">
+  <test thread-count="5" name="Check24Test">
+    <classes>
+      <class name="com.check24.selenium.tests.Check24_TestsSuites"/>
+    </classes>
+  </test> <!-- Check24Test -->
+</suite> <!-- Check24Suite -->
